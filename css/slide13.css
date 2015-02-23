@@ -1,0 +1,160 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.seccion{
+	position: absolute;
+	top: 15px;
+	left: 30px;
+}
+#contenedor {
+	background: url(../general/fondo-todos.jpg) no-repeat left top #FFFFFF;
+	display: block;
+	height: 768px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	width: 1024px;
+}
+#contenedorIni {
+	background: #FFFFFF;
+	display: block;
+	height: 768px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	width: 1024px;
+}
+#btnAnt {
+	height: 27px;
+	left: 899px;
+	position: absolute;
+	top: 16px;
+	width: 27px;
+}
+#btnHome {
+	height: 36px;
+	left: 937px;
+	position: absolute;
+	top: 8px;
+	width: 39px;
+}
+#btnSig {
+	height: 27px;
+	left: 986px;
+	position: absolute;
+	top: 16px;
+	width: 27px;
+}
+
+
+#linea {
+	position: absolute;
+	width: 848px;
+	height: 3px;
+	left: 89px;
+	top: 150px;
+}
+
+
+#txt1 {
+	position: absolute;
+	width: 709px;
+	height: 32px;
+	left: 157px;
+	top: 101px;
+}
+#txt2 {
+	position: absolute;
+	width: 603px;
+	height: 48px;
+	left: 211px;
+	top: 190px;
+}
+#tabla {
+	position: absolute;
+	width: 825px;
+	height: 307px;
+	left: 99px;
+	top: 289px;
+}
+#txtBarra1 {
+	position: absolute;
+	width: 86px;
+	height: 30px;
+	left: 193px;
+	top: 320px;
+}
+#barra1 {
+	position: absolute;
+	width: 111px;
+	height: 97px;
+	left: 185px;
+	top: 401px;
+}
+#txtBarra2 {
+	position: absolute;
+	width: 86px;
+	height: 30px;
+	left: 346px;
+	top: 320px;
+}
+#barra2 {
+	position: absolute;
+	width: 109px;
+	height: 116px;
+	left: 340px;
+	top: 382px;
+}
+#txtBarra3 {
+	position: absolute;
+	width: 86px;
+	height: 30px;
+	left: 500px;
+	top: 319px;
+}
+#barra3 {
+	position: absolute;
+	width: 110px;
+	height: 104px;
+	left: 491px;
+	top: 394px;
+}
+#txtBarra4 {
+	position: absolute;
+	width: 86px;
+	height: 30px;
+	left: 651px;
+	top: 319px;
+}
+#barra4 {
+	position: absolute;
+	width: 107px;
+	height: 106px;
+	left: 646px;
+	top: 391px;
+}
+#txtBarra5 {
+	position: absolute;
+	width: 86px;
+	height: 30px;
+	left: 805px;
+	top: 319px;
+}
+#barra5 {
+	position: absolute;
+	width: 108px;
+	height: 74px;
+	left: 799px;
+	top: 424px;
+}
+#txtPie {
+	position: absolute;
+	width: 251px;
+	height: 59px;
+	left: 69px;
+	top: 659px;
+}
+
+
+

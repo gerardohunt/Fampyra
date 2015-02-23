@@ -1,0 +1,106 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.seccion{
+	position: absolute;
+	top: 15px;
+	left: 30px;
+}
+#contenedor {
+	background: url(../general/fondo-todos.jpg) no-repeat left top #FFFFFF;
+	display: block;
+	height: 768px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	width: 1024px;
+}
+#contenedorIni {
+	background: #FFFFFF;
+	display: block;
+	height: 768px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	width: 1024px;
+}
+#btnAnt {
+	height: 27px;
+	left: 899px;
+	position: absolute;
+	top: 16px;
+	width: 27px;
+}
+#btnHome {
+	height: 36px;
+	left: 937px;
+	position: absolute;
+	top: 8px;
+	width: 39px;
+}
+#btnSig {
+	height: 27px;
+	left: 986px;
+	position: absolute;
+	top: 16px;
+	width: 27px;
+}
+
+
+#linea {
+	position: absolute;
+	width: 848px;
+	height: 3px;
+	left: 89px;
+	top: 150px;
+}
+
+
+#txt1 {
+	position: absolute;
+	width: 514px;
+	height: 29px;
+	left: 112px;
+	top: 115px;
+}
+#txt2 {
+	position: absolute;
+	left: 45px;
+	top: 178px;
+}
+#txt3 {
+	position: absolute;
+	left: 240px;
+	top: 293px;
+}
+#tabla {
+	position: absolute;
+	left: 28px;
+	top: 342px;
+}
+
+/*Slide22
+*/
+
+
+.slide22 #txt1{
+	-webkit-animation-delay: .5s;
+	-o-animation-delay: .5s;
+	animation-delay: .5s;
+}
+.slide22 #txt2{
+	-webkit-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	animation-delay: 1s;
+}
+.slide22 #txt3{
+	-webkit-animation-delay: 1.5s;
+	-o-animation-delay: 1.5s;
+	animation-delay: 1.5s;
+}
+.slide22 #tabla{
+	-webkit-animation-delay: 2s;
+	-o-animation-delay: 2s;
+	animation-delay: 2s;
+}

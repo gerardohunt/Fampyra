@@ -1,0 +1,117 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.seccion{
+	position: absolute;
+	top: 15px;
+	left: 30px;
+}
+#contenedor {
+	background: url(../general/fondo-todos.jpg) no-repeat left top #FFFFFF;
+	display: block;
+	height: 768px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	width: 1024px;
+}
+#contenedorIni {
+	background: #FFFFFF;
+	display: block;
+	height: 768px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	width: 1024px;
+}
+#btnAnt {
+	height: 27px;
+	left: 899px;
+	position: absolute;
+	top: 16px;
+	width: 27px;
+}
+#btnHome {
+	height: 36px;
+	left: 937px;
+	position: absolute;
+	top: 8px;
+	width: 39px;
+}
+#btnSig {
+	height: 27px;
+	left: 986px;
+	position: absolute;
+	top: 16px;
+	width: 27px;
+}
+
+
+#linea {
+	position: absolute;
+	width: 848px;
+	height: 3px;
+	left: 89px;
+	top: 150px;
+}
+
+#txt1 {
+	position: absolute;
+	width: 518px;
+	height: 42px;
+	left: 253px;
+	top: 97px;
+}
+#txt2 {
+	position: absolute;
+	width: 556px;
+	height: 44px;
+	left: 234px;
+	top: 184px;
+}
+#tabla {
+	position: absolute;
+	width: 859px;
+	height: 330px;
+	left: 83px;
+	top: 246px;
+}
+#barra1 {
+	position: absolute;
+	width: 84px;
+	height: 122px;
+	left: 257px;
+	top: 388px;
+}
+#barra2 {
+	position: absolute;
+	width: 84px;
+	height: 133px;
+	left: 441px;
+	top: 377px;
+}
+#barra3 {
+	position: absolute;
+	width: 84px;
+	height: 124px;
+	left: 624px;
+	top: 386px;
+}
+#barra4 {
+	position: absolute;
+	width: 84px;
+	height: 144px;
+	left: 807px;
+	top: 366px;
+}
+#txtPie {
+	position: absolute;
+	width: 260px;
+	height: 17px;
+	left: 70px;
+	top: 685px;
+}
+
+
+

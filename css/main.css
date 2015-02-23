@@ -1,0 +1,728 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+#contenedor {
+	background: url(../general/fondo-todos.jpg) no-repeat left top #FFFFFF;
+	display: block;
+	height: 768px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	width: 1024px;
+}
+
+.seccion{
+	position: absolute;
+	top: 15px;
+	left: 30px;
+}
+
+#contenedorIni {
+	background: #FFFFFF;
+	display: block;
+	height: 768px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	width: 1024px;
+}
+#btnAnt {
+	height: 27px;
+	left: 899px;
+	position: absolute;
+	top: 16px;
+	width: 27px;
+}
+#btnHome {
+	height: 36px;
+	left: 937px;
+	position: absolute;
+	top: 8px;
+	width: 39px;
+}
+#btnSig {
+	height: 27px;
+	left: 986px;
+	position: absolute;
+	top: 16px;
+	width: 27px;
+}
+
+/* SLIDER 1 */
+#imgIni {
+	width: 1024px;
+	height: 768px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 1;
+	animation-duration: 3s;
+	-webkit-animation-duration: 3s;
+	-moz-animation-duration: 3s;
+	-o-animation-duration: 3s;
+	-ms-animation-duration: 3s;
+	animation-duration: 3s;
+	-webkit-animation-delay: 1.5s;
+	-moz-animation-delay: 1.5s;
+	-o-animation-delay: 1.5s;
+	-ms-animation-delay: 1.5s;
+}
+#iniciamos {
+	width: 57px;
+	height: 59px;
+	position: absolute;
+	left: 943px;
+	top: 26px;
+	z-index: 2;
+	-webkit-animation-delay: 2s;
+	-moz-animation-delay: 2s;
+	-o-animation-delay: 2s;
+	-ms-animation-delay: 2s;
+	animation-duration: 1s;
+	-webkit-animation-duration: 1s;
+	-moz-animation-duration: 1s;
+	-o-animation-duration: 1s;
+	-ms-animation-duration: 1s;
+}
+#txt1Sld1 {
+	width: 399px;
+	height: 72px;
+	position: absolute;
+	left: 91px;
+	top: 173px;
+	z-index: 2;
+}
+
+.pie{
+	position: absolute;
+	left: 15px;
+	bottom: 10px;
+	z-index: 9;
+	-webkit-animation-delay: 3s;
+	-o-animation-delay: 3s;
+	animation-delay: 3s;
+}
+
+#txt2Sld1 {
+	width: 399px;
+	height: 72px;
+	position: absolute;
+	left: 110px;
+top: 320px;
+	z-index: 2;
+
+	-webkit-animation-delay: 1s;
+	-moz-animation-delay: 1s;
+	-o-animation-delay: 1s;
+	-ms-animation-delay: 1s;
+	-webkit-animation-duration: 1s;
+	-moz-animation-duration: 1s;
+	-o-animation-duration: 1s;
+	-ms-animation-duration: 1s;
+}
+#txtPieSld1 {
+	width: 528px;
+	height: 30px;
+	position: absolute;
+	left: 33px;
+	top: 717px;
+	z-index: 2;
+}
+#logoPie {
+	bottom: 0;
+    height: 104px;
+    position: absolute;
+    right: 0;
+    width: 367px;
+    z-index: 2;
+}
+/* SLIDE 3 */
+#txt1Sld3 {
+	position: absolute;
+	width: 769px;
+	height: 59px;
+	left: 113px;
+	top: 89px;
+}
+#lineaSld3 {
+	position: absolute;
+	width: 848px;
+	height: 3px;
+	left: 89px;
+	top: 150px;
+}
+#bloqDerSld3{
+	position: absolute;
+	width: 335px;
+	height: 253px;
+	left: 161px;
+	top: 297px;
+}
+#bloqIzqSld3 {
+	position: absolute;
+	width: 335px;
+	height: 253px;
+	left: 504px;
+	top: 297px;
+}
+/*SLIDE 4*/
+#txt1Sld4 {
+	position: absolute;
+	width: 802px;
+	height: 59px;
+	left: 110px;
+	top: 89px;
+}
+#txt1Sld4 img {
+	display: block;
+}
+#lineaSld4 {
+	position: absolute;
+	width: 848px;
+	height: 3px;
+	left: 89px;
+	top: 150px;
+}
+#tablaSld4 {
+	background: url("../slide4/tabla.png") no-repeat scroll left top;
+    height: 487px;
+    left: 70px;
+    position: absolute;
+    top: 185px;
+    width: 396px;
+}
+#lineaVertical {
+	position: absolute;
+	width: 3px;
+	height: 146px;
+	left: 484px;
+	top: 311px;
+}
+#texto2Sld4 {
+	position: absolute;
+	width: 439px;
+	height: 147px;
+	left: 506px;
+	top: 309px;
+}
+#wpBarrasSld4{
+    display: block;
+    height: 405px;
+    left: 175px;
+    position: absolute;
+    top: 18px;
+    width: 193px;
+}
+#wpBarrasSld4 #barra1 {
+    width: 183px;
+    height: 19px;
+    left: 0px;
+    top: 0px;
+    position: absolute;
+}
+#wpBarrasSld4 #barra2 {
+    width: 40px;
+    height: 19px;
+    left: 0px;
+    top: 38px;
+    position: absolute;
+}
+#wpBarrasSld4 #barra3 {
+    width: 40px;
+    height: 19px;
+    left: 0px;
+    top: 70px;
+    position: absolute;
+}
+#wpBarrasSld4 #barra4 {
+    width: 54px;
+    height: 19px;
+    left: 0px;
+    top: 103px;
+    position: absolute;
+}
+#wpBarrasSld4 #barra5 {
+    width: 40px;
+    height: 19px;
+    left: 0px;
+    top: 133px;
+    position: absolute;
+}
+#wpBarrasSld4 #barra6 {
+    width: 29px;
+    height: 19px;
+    left: 0px;
+    top: 162px;
+    position: absolute;
+}
+#wpBarrasSld4 #barra7 {
+    width: 116px;
+    height: 19px;
+    left: 0px;
+    top: 195px;
+    position: absolute;
+}
+#wpBarrasSld4 #barra8 {
+    width: 11px;
+    height: 19px;
+    left: 0px;
+    top: 224px;
+    position: absolute;
+}
+#wpBarrasSld4 #barra9 {
+    width: 73px;
+    height: 19px;
+    left: 0px;
+    top: 255px;
+    position: absolute;
+}
+#wpBarrasSld4 #barra10 {
+    width: 30px;
+    height: 19px;
+    left: 0px;
+    top: 283px;
+    position: absolute;
+}
+#wpBarrasSld4 #barra11 {
+    width: 30px;
+    height: 19px;
+    left: 0px;
+    top: 316px;
+    position: absolute;
+}
+#wpBarrasSld4 #barra12 {
+    width: 16px;
+    height: 19px;
+    left: 0px;
+    top: 348px;
+    position: absolute;
+}
+#wpBarrasSld4 #barra13 {
+    width: 26px;
+    height: 19px;
+    left: 0px;
+    top: 378px;
+    position: absolute;
+}
+/* SLIDE 5 */
+#txt1Sl5 {
+	position: absolute;
+	width: 809px;
+	height: 73px;
+	left: 107px;
+	top: 88px;
+}
+#lineaSl5 {
+	position: absolute;
+	width: 848px;
+	height: 3px;
+	left: 89px;
+	top: 165px;
+}
+#cuadro1Sld5 {
+	position: absolute;
+	width: 413px;
+	height: 359px;
+	left: 83px;
+	top: 218px;
+}
+#cuadro2Sld5 {
+	position: absolute;
+	width: 183px;
+	height: 179px;
+	left: 535px;
+	top: 218px;
+}
+#cuadro3Sld5 {
+	position: absolute;
+	width: 206px;
+	height: 179px;
+	left: 734px;
+	top: 218px;
+}
+#cuadro4Sld5 {
+	position: absolute;
+	width: 186px;
+	height: 160px;
+	left: 535px;
+	top: 405px;
+}
+#cuadro5Sld5 {
+	position: absolute;
+	width: 205px;
+	height: 157px;
+	left: 735px;
+	top: 405px;
+}
+#txtPieSld5 {
+	position: absolute;
+	width: 226px;
+	height: 21px;
+	left: 84px;
+	top: 606px;
+}
+/* SLIDE 6 */
+#txt1Sld6 {
+	position: absolute;
+	width: 770px;
+	height: 59px;
+	left: 126px;
+	top: 87px;
+}
+#lineaSld6 {
+	position: absolute;
+	width: 848px;
+	height: 3px;
+	left: 89px;
+	top: 150px;
+}
+#casaSld6 {
+	position: absolute;
+	width: 607px;
+	height: 375px;
+	left: 72px;
+	top: 184px;
+}
+#cuadro1Sld6 {
+	position: absolute;
+	width: 198px;
+	height: 160px;
+	left: 141px;
+	top: 237px;
+	z-index: 5;
+}
+#cuadro2Sld6 {
+	position: absolute;
+	width: 259px;
+	height: 207px;
+	left: 368px;
+	top: 200px;
+	z-index: 5;
+}
+#cuadro3Sld6 {
+	position: absolute;
+	width: 212px;
+	height: 129px;
+	left: 137px;
+	top: 422px;
+	z-index: 5;
+}
+#cuadro4Sld6 {
+	position: absolute;
+	width: 256px;
+	height: 134px;
+	left: 373px;
+	top: 416px;
+	z-index: 5;
+}
+#cuadro5Sld6 {
+	position: absolute;
+	width: 306px;
+	height: 247px;
+	left: 645px;
+	top: 312px;
+	z-index: 5;
+}
+#txtPieSld6 {
+	position: absolute;
+	width: 201px;
+	height: 19px;
+	left: 121px;
+	top: 578px;
+}
+/* SLIDE7 */
+#txt1Sld7 {
+	position: absolute;
+	width: 814px;
+	height: 59px;
+	left: 105px;
+	top: 87px;
+} 
+#lineaSld7 {
+	position: absolute;
+	width: 848px;
+	height: 3px;
+	left: 89px;
+	top: 150px;
+} 
+#txt2Sld7 {
+	position: absolute;
+	width: 676px;
+	height: 50px;
+	left: 174px;
+	top: 179px;
+}  
+#tablaSld7 {
+	position: absolute;
+	width: 575px;
+	height: 301px;
+	left: 224px;
+	top: 252px;
+	z-index: 5;
+}  
+#txt3Sld7 {
+	position: absolute;
+	width: 889px;
+	height: 70px;
+	left: 67px;
+	top: 574px;
+} 
+#cuadro1Sld7 {
+	position: absolute;
+	width: 288px;
+	height: 226px;
+	left: 225px;
+	top: 278px;
+} 
+#cuadro2Sld7 {
+	position: absolute;
+	width: 183px;
+	height: 226px;
+	left: 525px;
+	top: 278px;
+} 
+#cuadro3Sld7 {
+	position: absolute;
+	width: 77px;
+	height: 226px;
+	left: 720px;
+	top: 278px;
+}  
+/* SLIDE 8 */
+#txt1Sld8 {
+	position: absolute;
+	width: 776px;
+	height: 68px;
+	left: 124px;
+	top: 78px;
+} 
+#lineaSld8 {
+	position: absolute;
+	width: 848px;
+	height: 3px;
+	left: 89px;
+	top: 150px;
+} 
+#txt2Sld8 {
+	position: absolute;
+	width: 768px;
+	height: 106px;
+	left: 128px;
+	top: 178px;
+} 
+#cuadro1Sld8 {
+	position: absolute;
+	width: 241px;
+	height: 119px;
+	left: 94px;
+	top: 420px;
+} 
+#relojSld8 {
+	position: absolute;
+	width: 221px;
+	height: 259px;
+	left: 320px;
+	top: 319px;
+} 
+#cuadro2Sld8 {
+	position: absolute;
+	width: 402px;
+	height: 119px;
+	left: 527px;
+	top: 420px;
+} 
+#txtPieSld8 {
+	position: absolute;
+	width: 204px;
+	height: 38px;
+	left: 89px;
+	top: 666px;
+}
+/* SLIDE 9 */
+#txt1Sld9 {
+	position: absolute;
+	width: 776px;
+	height: 68px;
+	left: 124px;
+	top: 79px;
+}
+#lineaSld9 {
+	position: absolute;
+	width: 848px;
+	height: 3px;
+	left: 89px;
+	top: 150px;
+}
+#txt2Sld9 {
+	position: absolute;
+	width: 579px;
+	height: 20px;
+	left: 185px;
+	top: 176px;
+}
+#tablaSld9 {
+	background: url(../slide9/tabla.png) no-repeat left top;
+	position: absolute;
+	width: 546px;
+	height: 291px;
+	left: 178px;
+	top: 265px;
+}
+#infoSld9 {
+	position: absolute;
+	width: 154px;
+	height: 147px;
+	left: 747px;
+	top: 300px;
+}
+#txt3Sld9 {
+	position: absolute;
+	width: 175px;
+	height: 8px;
+	left: 122px;
+	top: 595px;
+}
+#txtPieSld9 {
+	position: absolute;
+	width: 175px;
+	height: 8px;
+	left: 70px;
+	top: 693px;
+}
+#wpLineasSld9 {
+    height: 204px;
+    left: 72px;
+    position: absolute;
+    top: 38px;
+    width: 464px;
+}
+#barra1Sld9  {
+    width: 409px;
+    height: 179px;
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+}
+#barra2Sld9 {
+    width: 404px;
+    height: 52px;
+    position: absolute;
+    bottom: 2px;
+    left: 2px;
+}
+#barra3Sld9 {
+    width: 404px;
+    height: 68px;
+    position: absolute;
+    bottom: 2px;
+    left: 3px;
+}
+/* SLIDE 10 */
+#txt1Sld10  {
+	position: absolute;
+	width: 789px;
+	height: 59px;
+	left: 117px;
+	top: 88px;
+}
+#lineaSld10  {
+	position: absolute;
+	width: 848px;
+	height: 3px;
+	left: 89px;
+	top: 150px;
+}
+#tablaSld10  {
+	background: url(../slide10/tabla.png) no-repeat left top;
+	position: absolute;
+	width: 725px;
+	height: 344px;
+	left: 111px;
+	top: 184px;
+}
+#txt2Sld10  {
+	position: absolute;
+	width: 418px;
+	height: 48px;
+	left: 128px;
+	top: 564px;
+}
+#txtPieSld10  {
+	position: absolute;
+	width: 248px;
+	height: 18px;
+	left: 70px;
+	top: 681px;
+}
+#tablaSld10 #wp1  {
+	height: 84px;
+    left: 133px;
+    position: absolute;
+    top: 0;
+    width: 280px;
+    overflow: hidden;
+}
+#tablaSld10 #wp2  {
+    height: 170px;
+    left: 133px;
+    overflow: hidden;
+    position: absolute;
+    top: 85px;
+    width: 590px;
+}
+#barra1sld10  {
+	bottom: 0;
+    height: 61px;
+    left: 14px;
+    position: absolute;
+    width: 67px;
+}
+#barra2sld10 {
+	height: 51px;
+    left: 110px;
+    position: absolute;
+    top: 0;
+    width: 67px;
+}
+#barra3sld10 {
+	height: 92px;
+    left: 210px;
+    position: absolute;
+    top: 0;
+    width: 67px;
+}
+#barra4sld10 {
+	height: 122px;
+    left: 310px;
+    position: absolute;
+    top: 0;
+    width: 67px;
+}
+#barra5sld10 {
+	height: 138px;
+    left: 407px;
+    position: absolute;
+    top: 0;
+    width: 67px;
+}
+#barra6sld10 {
+	height: 161px;
+    left: 507px;
+    position: absolute;
+    top: -1px;
+    width: 67px;
+}
+
+#wp2{
+	z-index: 9;
+}
+.verde{
+	position: absolute;
+left: 133px;
+top: 132px;
+	-webkit-animation-delay: 4.5s;
+	-o-animation-delay: 4.5s;
+	animation-delay: 4.5s;
+}
+

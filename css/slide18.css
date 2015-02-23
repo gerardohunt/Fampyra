@@ -1,0 +1,104 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.seccion{
+	position: absolute;
+	top: 15px;
+	left: 30px;
+}
+#contenedor {
+	background: url(../general/fondo-todos.jpg) no-repeat left top #FFFFFF;
+	display: block;
+	height: 768px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	width: 1024px;
+}
+#contenedorIni {
+	background: #FFFFFF;
+	display: block;
+	height: 768px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+	width: 1024px;
+}
+#btnAnt {
+	height: 27px;
+	left: 899px;
+	position: absolute;
+	top: 16px;
+	width: 27px;
+}
+#btnHome {
+	height: 36px;
+	left: 937px;
+	position: absolute;
+	top: 8px;
+	width: 39px;
+}
+#btnSig {
+	height: 27px;
+	left: 986px;
+	position: absolute;
+	top: 16px;
+	width: 27px;
+}
+
+
+#linea {
+	position: absolute;
+	width: 848px;
+	height: 3px;
+	left: 89px;
+	top: 150px;
+}
+
+
+#txt1 {
+	position: absolute;
+	width: 285px;
+	height: 29px;
+	left: 366px;
+	top: 97px;
+}
+#txt2{
+	position: absolute;
+	width: 257px;
+	height: 127px;
+	left: 635px;
+	top: 365px;
+}
+#txt3{
+	position: absolute;
+	width: 279px;
+	height: 113px;
+	left: 147px;
+	top: 333px;
+}
+#semaforo{
+	position: absolute;
+	width: 154px;
+	height: 392px;
+	left: 468px;
+	top: 184px;
+}
+#calle{
+	position: absolute;
+	width: 795px;
+	height: 40px;
+	left: 109px;
+	top: 573px;
+}
+#peaton{
+	position: absolute;
+	width: 73px;
+	height: 159px;
+	left: 441px;
+	top: 436px;
+}
+
+
+
